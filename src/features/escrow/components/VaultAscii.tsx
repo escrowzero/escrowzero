@@ -146,7 +146,7 @@ export function VaultAscii() {
           put(c, r, ch, wt + (open ? 0.1 : 0));
         }
         for (let c = C0; c < C0 + width; c++) {
-          const hatch = (c + r) % 4 === 0 ? ":" : "\u00b7";
+          const hatch = (c + r) % 4 === 0 ? ":" : "·";
           put(c, r, hatch, 0.42, true);
         }
       }
@@ -221,7 +221,7 @@ export function VaultAscii() {
             if (ch !== " ") shine += 0.12;
           }
           const shade = ch === " " ? cur : clamp(Math.round((base + w[r][c] + shine) * 9), 0, 9);
-          const ink = "o#+@()|=Ov\u00b7:".includes(ch) && shade < 6 ? 6 : shade;
+          const ink = "o#+@()|=Ov·:".includes(ch) && shade < 6 ? 6 : shade;
           if (ink !== cur) {
             if (buf) line += `<i class="c${cur}">${buf}</i>`;
             buf = "";
