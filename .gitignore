@@ -1,0 +1,8 @@
+node_modules/
+.grok/
+.vercel/
+artifacts/
+attachments/
+screenshots/
+.env
+.env.*
