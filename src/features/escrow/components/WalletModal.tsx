@@ -125,7 +125,7 @@ export const WalletModal: React.FC<WalletModalProps> = ({
               <div className="text-sm font-mono font-bold text-[#3a5e3c] break-all">{walletAddress}</div>
               <div className="flex items-center justify-between text-[11px] text-[#1e3a2c] mt-3 pt-2 border-t border-[#4B3723]/10 font-mono">
                 <span>Chain ID: 4663 (Robinhood Chain)</span>
-                <span className="text-[#145c32] font-bold">\u26fd Gasless Paymaster Active</span>
+                <span className="text-[#145c32] font-bold">⛽ Gasless Paymaster Active</span>
               </div>
             </div>
 
@@ -147,7 +147,7 @@ export const WalletModal: React.FC<WalletModalProps> = ({
             {/* Switch Network */}
             <div className="p-3.5 bg-white border border-[#4B3723]/15 rounded-2xl flex items-center justify-between">
               <div>
-                <div className="font-bold text-xs text-[#3a5e3c]">Robinhood Chain \u00b7 4663</div>
+                <div className="font-bold text-xs text-[#3a5e3c]">Robinhood Chain · 4663</div>
                 <div className="text-[11px] text-[#1e3a2c]">
                   Mainnet RPC rpc.mainnet.chain.robinhood.com
                 </div>
