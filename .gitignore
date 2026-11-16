@@ -4,5 +4,6 @@ node_modules/
 artifacts/
 attachments/
 screenshots/
+src/features/escrow/utils/sponsor-key.server.ts
 .env
 .env.*
